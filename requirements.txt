@@ -1,0 +1,34 @@
+Make sure to have a basic installation of python
+
+open the folder with "app.py" in your terminal
+
+and run the following:
+
+"python app.py"
+
+that should print out all records in the text database
+
+you can search for a specific bank by running the following:
+
+"python app.py -b <type in bank name here>"
+
+for more advanced string searches which may contain spaces,
+add quotes to mark the search term e.g:
+
+python app.py -b "american express us consumer"
+
+to ouput to excel format you can either run:
+
+python app.py --excel
+
+OR
+
+python app.py -e -b <search-term>
+
+
+for more info on available commands you can just type:
+
+python app.py --help
+
+
+Thanks!
